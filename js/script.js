@@ -4,3 +4,12 @@ Bonus:
 Aggiungere alla pagina un’immagine, presa anch’essa da un data. 
 */
  
+const { createApp } = Vue;
+
+createApp({
+    data(){
+        return {
+            saluto: "Bitcoin to the Moon!",
+        }
+    }
+}).mount("#title")
